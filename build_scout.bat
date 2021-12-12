@@ -1,9 +1,10 @@
-REM NOTE: This is a DEVELOPER script. You don't need this just to play with the mod
+REM NOTE: This is a DEVELOPER script. You don't need this just to play with the mod.
 
 @echo off
 
 set modname=sato_retinue_scout
 set modkitdir=YOUR_MODKIT_BIN_PATH
+set version=1.0
 
 echo.
 echo Creating temporary directory...
@@ -45,7 +46,7 @@ echo Packaging mod into .zip...
 echo.
 
 REM Requires Powershell 5.0 / .NET Framework 4.x (some claim 4, some claim 4.5, some claim 4.8)
-powershell.exe -nologo -noprofile -command "& { Compress-Archive -Force -Path %~dp0\dist\scripts -DestinationPath %~dp0\dist\%modname% }"
+powershell.exe -nologo -noprofile -command "& { Compress-Archive -Force -Path '%~dp0\dist\scripts' -DestinationPath '%~dp0\dist\%modname%_%version%.zip' }"
 
 echo.
 echo Cleaning up dist\scripts
