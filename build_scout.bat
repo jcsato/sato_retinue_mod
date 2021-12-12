@@ -39,7 +39,7 @@ echo Removing uncompiled source from dist...
 echo.
 
 REM Remove uncompiled source from dist\scripts directory
-for /r "%~dp0\dist\scripts" %%f in (*.nut) do del /f /q %%f
+for /r "%~dp0\dist\scripts" %%f in (*.nut) do del /f /q "%%f"
 
 echo.
 echo Packaging mod into .zip...
