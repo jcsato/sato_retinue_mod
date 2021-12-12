@@ -11,13 +11,7 @@ A mod for the game Battle Brothers ([Steam](https://store.steampowered.com/app/3
 -   [Compatibility](#compatibility)
 -   [Building](#building)
 
-## Screenshots
-
-| The Scout |
-| --------- |
-| <img src="./screenshots/the_scout_1-0.jpg" width="700"> |
-
-## Feature
+## Features
 
 I'm pretty happy with where the retinue system is overall, but there are a few ways in which I think the balance and gameplay impact of certain retinue members could be improved. At present:
 
