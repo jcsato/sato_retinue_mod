@@ -21,13 +21,13 @@ echo.
 
 REM Make a directory for old versions, if necessary, silencing error output
 mkdir "%~dp0\old_versions" > nul 2> nul
-move "%datadir%\%modname%.zip" "%~dp0\old_versions\%modname%-%ymddate%-%hmstime%.zip"
+move "%datadir%\%modname%*.zip" "%~dp0\old_versions\%modname%-%ymddate%-%hmstime%.zip"
 
 echo.
 echo Installing new version, if any, to data directory...
 echo.
 
-move "%~dp0\dist\%modname%.zip" "%datadir%\%modname%.zip" 2> nul
+move "%~dp0\dist\%modname%*.zip" "%datadir%\" 2> nul
 
 echo Done.
 
