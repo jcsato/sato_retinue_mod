@@ -1,3 +1,7 @@
+# NOTE
+
+This mod has been superseded by my more general [balance mod](https://github.com/jcsato/sato_balance_mod) - go there for further updates.
+
 # Sato's Retinue Mod
 
 A mod for the game Battle Brothers ([Steam](https://store.steampowered.com/app/365360/Battle_Brothers/), [GOG](https://www.gog.com/game/battle_brothers), [Developer Site](http://battlebrothersgame.com/buy-battle-brothers/)).
